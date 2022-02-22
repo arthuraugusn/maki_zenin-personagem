@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(255, 255, 255), rgb(156, 27, 27), rgb(75, 3, 3));
+}
+.logo{
+    justify-self: flex-start;
+    width: 80px;
+    cursor: pointer;
+}
+.top{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.topico{
+    justify-content: end;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.textos{
+    word-spacing: 15px;
+    margin-right: 15px;
+    margin: 5px;
+    
+}
+.maki{
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 35px;
+    align-self: center;
+    position: absolute;
+}
+.text{
+    width: 700px;
+    text-align: center;
+    padding-top: 40px;
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.copy{
+    color: white;
+    align-self: center;
+}
+@media(max-width: 768px){
+    .text{
+        width: 340px;
+    }
+}
